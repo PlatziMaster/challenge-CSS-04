@@ -1,6 +1,6 @@
 # 🐸 Challenge CSS 04
 
-Flexbox: App bar top
+Flexbox: Banner
 
 ## 🐸 ¿En qué consiste?
 
