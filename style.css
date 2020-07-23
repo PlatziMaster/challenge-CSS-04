@@ -1,37 +1,38 @@
-*{
+* {
     margin: 0;
     @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
 }
 
-body{
-    background-color:#E5E5E5;
+body {
+    background-color: #E5E5E5;
 }
 
-.back{
+.back {
     max-width: 500px;
     width: 100%;
     text-align: center;
     margin: auto;
 }
 
-.header{
+.header {
     margin-top: 200px;
+    box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.75);
 }
 
-.header__top{
-    background-color:#4c00d5;
+.header__top {
+    background-color: #4c00d5;
     height: 30px;
     display: flex;
-    justify-content:flex-end;
+    justify-content: flex-end;
     align-items: center;
 }
 
-.header__top i{
+.header__top i {
     color: #9E4BFF;
     margin-right: 10px;
 }
 
-.header__options{
+.header__options {
     background-color: #6200EE;
     height: 80px;
     display: flex;
@@ -39,25 +40,65 @@ body{
     align-items: center;
 }
 
-.header__options h1{
+.header__options h1 {
     font-family: 'Mulish', sans-serif;
     color: #ffffff;
     font-size: 25px;
     padding: 10px 20px;
 }
 
-.header__options i{
+.header__options i {
     color: #ffffff;
     padding: 10px 20px;
     font-size: 25px;
 }
 
-.header__options_left{
+.header__options_left {
     display: flex;
     margin: 10px;
 }
 
-.content__space{    
+.content__space {
     height: 500px;
-    background-color:#ffffff;
+    background-color: #ffffff;
+    box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.75);
+}
+
+.content__space_text {
+    font-family: 'Mulish', sans-serif;
+    color: #0C0C0C;
+    font-size: 20px;
+    text-align: left;
+    padding: 40px 22px;
+}
+
+a {
+    text-decoration: none;
+    padding: 0 10px;
+    font-family: 'Mulish', sans-serif;
+    color: #9E4BFF;
+}
+
+.content__space_a {
+    text-align: right;
+    padding: 10px 22px;
+    letter-spacing: 2px;
+}
+
+hr {
+    color: #E7E8EA;
+    margin-top: 20px;
+    font-style: strong;
+}
+
+.content__space_img {
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+}
+
+.content__space_img img {
+    object-fit: cover;
+    margin: 10px 3px;
+    box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.75);
 }
