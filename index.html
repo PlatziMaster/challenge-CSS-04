@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge Flexbox</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            font-size: 25px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bold;
+        }
+        .header_0{
+            height: 50px;
+            display: flex;
+            align-items: center;
+            background: #3700B3; 
+            justify-content:flex-end;
+            padding-right: 10px;
+            list-style: none;
+        }
+        .header{
+            background: #6200EE;
+            color: white;
+        }
+        .header_bloque{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-right: 30px;
+            padding-left: 30px;
+        
+        }
+        .header_title p{
+           
+        }
+        .header_menu{
+            display: flex;
+            align-items: center;
+        }
+        .header_icon ul{
+            list-style: none;
+            
+        }
+        .description{
+            color: black;
+            padding: 5px;
+            font-size: 20px;
+        }
+        .button{
+            padding-right: 40px;
+            text-align: right;
+        }
+        .button_left, .button_right{
+            color: #6200EE;
+            border-style: none;
+            font-size: 20px;
+            background: white;
+        }
+        .section_header{
+            padding: 50px;
+        }
+        .imagenes{
+            display: flex;
+            justify-content: center;
+        }
+        .image_1, .image_2 {
+           margin: 5px;
+        }
+
+        @media screen and (max-width:320px){
+            .imagenes{
+                display: block;
+                text-align: center;
+            }
+            .header_title{
+                font-size: 22px;
+            }
+            .description{
+                font-size: 15px;
+            }
+            .button{
+                display: contents;
+            }
+            .button_left, .button_right{
+                font-size: 16px;
+                font-weight: bold;
+                align-self: center;
+            }
+        }
+           
+       
+    </style>
+</head>
+<body>
+    <section class="header_0">
+        <img src="https://image.flaticon.com/icons/svg/3124/3124850.svg" width="40px" height="30px">
+        <img src="https://image.flaticon.com/icons/svg/818/818275.svg" width="40px" height="30px">
+        <img src="https://image.flaticon.com/icons/svg/838/838503.svg" width="40px" height="30px">
+    </section>
+
+    <header class="header">
+        <div class="header_bloque">
+            <div class="header_menu">
+                <img src="https://image.flaticon.com/icons/svg/1828/1828859.svg" width="90px" height="40px">
+                <div class="header_title">
+                    <p>My Picture</p>
+                </div>
+            </div>
+            
+
+            <div class="header_icon">
+                <ul>
+                    <li>
+                        <a href=""> <img src="https://image.flaticon.com/icons/svg/622/622669.svg" width="60px" height="30px">
+                        </a>
+                        <a href=""><img src="https://image.flaticon.com/icons/svg/130/130921.svg" width="60px" height="30px">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+        <section class="section_header">
+
+                <p class="description">
+                    There was  a problem processing a transaction on your credit card. 
+                </p>
+            <div class="button">
+                <button class="button_left">FIX IT</button>
+                <button class="button_right">LEARN MORE</button>
+            </div>
+        
+        </section>
+        <div class="imagenes">
+            <div class="image_1">
+             <img src="https://i.pinimg.com/originals/2a/fe/7a/2afe7a85f823c0cfb0583da8128f5334.jpg">
+            </div>
+            <div class="image_2">
+                <img src="https://i.pinimg.com/originals/2a/fe/7a/2afe7a85f823c0cfb0583da8128f5334.jpg">
+            </div>
+            <div class="image_2">
+                <img src="https://i.pinimg.com/originals/2a/fe/7a/2afe7a85f823c0cfb0583da8128f5334.jpg">
+            </div>
+        </div>
+</body>
+</html>
