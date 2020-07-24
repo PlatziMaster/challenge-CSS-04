@@ -1,16 +1,16 @@
-# 🐸 Challenge CSS 04
+# 🐸 Challenge CSS 03
 
-Flexbox: Banner
+Flexbox: App bar top
 
 ## 🐸 ¿En qué consiste?
 
 La idea de este reto es que repliques el siguiente componente usando Flexbox. En Flexbox tenemos diferentes propiedades para los elementos padres y para los elementos hijos, por lo que la clave principal para resolver este reto es poder identificar qué elementos tenemos y que "rol" juegan, para así, identificar qué propiedades se le deben aplicar (recueda que hay hijos que también son padres).
 
 <kbd>
-<img src="https://i.ibb.co/TtrgKPf/2.png" alt="componente para replicar" />
+<img src="https://i.ibb.co/RPCqJq7/1.png" alt="componente para replicar" />
 </kbd>
 
-> [Fuente de la imagen | Material Design](https://material.io/components/banners)
+> [Fuente de la imagen | Material Design](https://material.io/components/app-bars-top)
 
 Te dejo la siguiente documentación útil para resolver el reto:
 
