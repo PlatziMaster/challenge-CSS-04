@@ -25,6 +25,12 @@ img {
     width: 100%;
 }
 
+a {
+    text-decoration: none;
+    color: #7173ef;
+    text-transform: uppercase;
+}
+
 
 /*up section*/
 
@@ -43,6 +49,7 @@ nav {
     padding: 1rem;
     display: flex;
     justify-content: space-between;
+    box-shadow: 2px 1px 2px #000000;
 }
 
 
@@ -84,6 +91,32 @@ nav {
     .left-nav p {
         padding: 0 1.5rem;
         font-weight: 500;
+    }
+    /*main section*/
+    /*alert section*/
+    .alert-section {
+        padding: 2rem 2rem 1rem 2rem;
+        border-bottom: .1rem solid lightgray;
+    }
+    .alert-section p {
+        color: black;
+        font-size: 1.2rem;
+    }
+    .alert-section div {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .alert-section div>a {
+        padding: .5rem;
+        font-weight: 500;
+    }
+    /*images section*/
+    .images-container {
+        padding-top: 1rem;
+        display: flex;
+    }
+    #first-img {
+        margin-right: .5rem;
     }
 }
 
