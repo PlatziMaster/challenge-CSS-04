@@ -1,0 +1,292 @@
+/*google fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/*
+    google fonts uses
+    font-family: 'Roboto', sans-serif;
+*/
+
+
+/*general styles*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #7173ef;
+    text-transform: uppercase;
+}
+
+
+/*up section*/
+
+.up {
+    display: flex;
+    background-color: #5765d5;
+    padding: .5rem;
+    justify-content: flex-end;
+}
+
+
+/*nav section*/
+
+nav {
+    background-color: #6c73ef;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 2px 1px 2px #000000;
+}
+
+
+/*right size*/
+
+.right-nav {
+    display: flex;
+}
+
+
+/*left size*/
+
+.left-nav {
+    display: flex;
+}
+
+
+/*media small and medium mobile*/
+
+@media screen and (min-width:320px) and (max-width:375px) {
+    /*up section*/
+    .up i {
+        padding: 0 .3rem;
+        color: #6c73ef;
+    }
+    /*triangle*/
+    .fa-caret-right {
+        margin-top: -.2rem;
+    }
+    /*nav bar*/
+    /*right size*/
+    .right-nav i {
+        padding: 0 1rem;
+    }
+    /*left size*/
+    .left-nav i {
+        padding: 0 1rem;
+    }
+    .left-nav p {
+        padding: 0 1.5rem;
+        font-weight: 500;
+    }
+    /*main section*/
+    /*alert section*/
+    .alert-section {
+        padding: 2rem 2rem 1rem 2rem;
+        border-bottom: .1rem solid lightgray;
+    }
+    .alert-section p {
+        color: black;
+        font-size: 1.2rem;
+    }
+    .alert-section div {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .alert-section div>a {
+        padding: .5rem;
+        font-weight: 500;
+    }
+    /*images section*/
+    .images-container {
+        padding-top: 1rem;
+        display: flex;
+    }
+    #first-img {
+        margin-right: .5rem;
+    }
+}
+
+
+/*large mobile*/
+
+@media screen and (min-width:425px) and (max-width:767px) {
+    html {
+        font-size: 15px;
+    }
+    /*up section*/
+    .up i {
+        padding: 0 .3rem;
+        color: #6c73ef;
+    }
+    /*triangle*/
+    .fa-caret-right {
+        margin-top: -.2rem;
+    }
+    /*nav bar*/
+    /*right size*/
+    .right-nav i {
+        padding: 0 1rem;
+    }
+    /*left size*/
+    .left-nav i {
+        padding: 0 1rem;
+    }
+    .left-nav p {
+        padding: 0 1.5rem;
+        font-weight: 500;
+    }
+    /*main section*/
+    /*alert section*/
+    .alert-section {
+        padding: 2rem 2rem 1rem 2rem;
+        border-bottom: .1rem solid lightgray;
+    }
+    .alert-section p {
+        color: black;
+        font-size: 1.2rem;
+    }
+    .alert-section div {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .alert-section div>a {
+        padding: .5rem;
+        font-weight: 500;
+    }
+    /*images section*/
+    .images-container {
+        padding-top: 1rem;
+        display: flex;
+    }
+    #first-img {
+        margin-right: .5rem;
+    }
+}
+
+
+/*tablet*/
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    html {
+        font-size: 20px;
+    }
+    /*up section*/
+    .up i {
+        padding: 0 .3rem;
+        color: #6c73ef;
+    }
+    /*triangle*/
+    .fa-caret-right {
+        margin-top: -.2rem;
+    }
+    /*nav bar*/
+    /*right size*/
+    .right-nav i {
+        padding: 0 1rem;
+    }
+    /*left size*/
+    .left-nav i {
+        padding: 0 1rem;
+    }
+    .left-nav p {
+        padding: 0 1.5rem;
+        font-weight: 500;
+    }
+    /*main section*/
+    /*alert section*/
+    .alert-section {
+        padding: 2rem 2rem 1rem 2rem;
+        border-bottom: .1rem solid lightgray;
+    }
+    .alert-section p {
+        color: black;
+        font-size: 1.2rem;
+    }
+    .alert-section div {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .alert-section div>a {
+        padding: .5rem;
+        font-weight: 500;
+    }
+    /*images section*/
+    .images-container {
+        padding-top: 1rem;
+        display: flex;
+    }
+    #first-img {
+        margin-right: .5rem;
+    }
+}
+
+
+/*desktop*/
+
+@media screen and (min-width:1024px) {
+    html {
+        font-size: 25px;
+    }
+    /*up section*/
+    .up i {
+        padding: 0 .3rem;
+        color: #6c73ef;
+    }
+    /*triangle*/
+    .fa-caret-right {
+        margin-top: -.2rem;
+    }
+    /*nav bar*/
+    /*right size*/
+    .right-nav i {
+        padding: 0 1rem;
+    }
+    /*left size*/
+    .left-nav i {
+        padding: 0 1rem;
+    }
+    .left-nav p {
+        padding: 0 1.5rem;
+        font-weight: 500;
+    }
+    /*main section*/
+    /*alert section*/
+    .alert-section {
+        padding: 2rem 2rem 1rem 2rem;
+        border-bottom: .1rem solid lightgray;
+    }
+    .alert-section p {
+        color: black;
+        font-size: 1.2rem;
+    }
+    .alert-section div {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .alert-section div>a {
+        padding: .5rem;
+        font-weight: 500;
+    }
+    /*images section*/
+    .images-container {
+        padding-top: 1rem;
+        display: flex;
+    }
+    #first-img {
+        margin-right: .5rem;
+    }
+}
