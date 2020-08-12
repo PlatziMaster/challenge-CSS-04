@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI Light";
+  height: 100vh;
+  width: 100vw;
+}
+main {
+  height: 100%;
+  width: 100%;
+  background-color: #e5e5e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-container {
+  width: 400px;
+  height: 50%;
+  background-color: white;
+  box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.5);
+}
+.main-bar {
+  background-color: #1B7530;
+  width: 100%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+}
+.circle {
+  width: 15px;
+  height: 15px;
+  background-color:  #1b5030;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 15px solid  #1b5030;
+  margin-right: 15px;
+}
+.square {
+  width: 15px;
+  height: 15px;
+  background-color: #1b5030;
+  margin-right: 10px;
+}
+.main-header {
+  width: 100%;
+  height: 70px;
+  background-color: #1b8030;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 5px 5px -1px rgba(0,0,0,0.5);
+}
+.header-left {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  font-size: 1.5em;
+}
+.header-left h1 {
+  font-weight: 400;;
+}
+.header-right {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+}
+.main-content {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-top {
+  width: 100%;
+  height: 120px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ebebeb;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  padding: 0 5%;
+}
+
+.main-top a {
+  text-decoration: none;
+  margin-left: 5%;
+  font-weight: 700;
+  color: green;
+}
+
+.main-img {
+  width: 49%;
+  height: 150px;
+}
+
+.main-img img {
+  width: 100%;
+}
+
+.main-img.right {
+  margin-left: 2%;
+}
