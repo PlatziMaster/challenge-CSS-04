@@ -4,6 +4,8 @@
   --purple: #6200ee;
   --dark_purple: #4c00d5;
   --ligth_purple: #9e4bff;
+  --body_color: #e5e5e5;
+  --text_color: #515151;
 }
 
 body {
@@ -14,6 +16,7 @@ body {
   justify-content: center;
   align-items: center ;
   font-family: 'Roboto', sans-serif;
+  background-color: var(--body_color)
 }
 
 .shelf {
@@ -56,6 +59,7 @@ body {
 }
 
 .nav_bar {
+  z-index: 2;
   background-color: var(--purple);
   color: white;
   width: auto;
@@ -113,4 +117,38 @@ body {
   height: 24px;
   background-image: url(../assets/menu-vertical.png);
   background-size: 100%;
+}
+
+.banner {
+  /* border: 1px solid red; */
+  background-color: white;
+  border-bottom: 1px solid var(--body_color);
+  padding: 8px;
+}
+
+.banner__text {
+  /* border: 1px solid chocolate; */
+  line-height: 20px;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-size: .9em;
+  color: var(--text_color);
+}
+
+.banner__links {
+  /* border: 1px solid green; */
+  display: flex;
+  justify-content: flex-end;
+}
+
+.banner__link {
+  /* border: 1px solid red; */
+  text-decoration: none;
+  color: var(--purple);
+  margin-left: 8px;
+  padding: 8px;
+}
+
+.banner__link:hover {
+  color: var(--dark_purple);
 }
