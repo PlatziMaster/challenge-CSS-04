@@ -71,3 +71,15 @@ header .tools__options-icon {
   color: #6f6aef;
   font-weight: 700;
 }
+
+main {
+  display: flex auto;
+  margin: 0;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+main img {
+  height: 200px;
+  width: 158px;
+}
