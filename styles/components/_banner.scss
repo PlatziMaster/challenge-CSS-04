@@ -1,0 +1,19 @@
+.banner {
+    margin: 0;
+    height: 120px;
+    background-color: #fff;
+    border-bottom: lighten($color: #000000, $amount: 90%) 2px solid;
+    p, &__options {
+        margin: 30px 5% 30px;
+    }
+    &__options {
+        display: flex;
+        justify-content: flex-end;
+        button {
+            text-transform: uppercase;
+            @include button-styles();
+            color: $color-primario;
+            font-weight: 700;
+        }
+        }
+}
