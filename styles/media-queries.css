@@ -1,0 +1,23 @@
+@media (min-width: 375px) {
+    main img {
+        height: 200px;
+        width: 185px;
+    }
+}
+
+@media (min-width: 425px) {
+    main img {
+        height: 200px;
+        width: 210px;
+    }
+}
+
+@media (min-width: 768px) {
+    .banner__options {
+        justify-content: flex-start;
+    }
+    main img {
+        height: 200px;
+        width: 253px;
+    }
+}
